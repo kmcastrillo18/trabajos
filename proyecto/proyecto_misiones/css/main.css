@@ -1,0 +1,97 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #D3D3D3;
+}
+
+header{
+    margin: 15px 0 15px 0;
+}
+
+.ocultar{
+    display: none;
+}
+
+.card {
+    background-color: #c7ecee;
+    border: 2px solid #3c6382;
+    width: 20%;
+    float: left;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    text-align: center;
+    min-height: 150px;
+}
+
+
+.input_error{
+    border-color: red;
+}
+
+
+.margin{
+    margin: 5px 0 25px 0;
+}
+
+.h1{
+    color: #3c6382;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.boton{
+    color: #fff;
+    background-color: #00a8ff;
+    height: 40px;
+    width: 100px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background-color: #fff;
+    color: #00a8ff
+}
+
+.boton2{
+    color: #fff;
+    background-color: #00a8ff;
+    height: 50px;
+    width: 90px;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+
+.boton2:hover{
+    background-color: #fff;
+    color: #00a8ff
+}
+
+
+a {
+    margin-right: 2%;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #6F1E51;
+}
+
+th {
+    color: #1B9CFC;
+    font-size: 20px;
+    padding: 5px;
+    width: 0%;
+}
+
+tbody{
+    text-align: center;
+}
+
+#txt_filtro_nombre{
+    margin: 10px 0 10px 0;
+    font-size: 15px;
+    min-height: 30px;
+    border-color: #1B9CFC;
+}

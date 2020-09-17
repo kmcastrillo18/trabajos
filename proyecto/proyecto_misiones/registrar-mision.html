@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <title>Misiones</title>
+</head>
+<body class="fondo-general">
+    <header>
+        <nav>
+            <a href="registrar-cuerpo-celeste.html">Registrar Cuerpo celeste</a><a href="registrar-programa.html">Registrar Programa Espacial</a><a href="listar-misiones.html">Misiones</a><a href="listar_programas.html">Programas Espaciales</a><a href="listar_cuerpos_celestes.html">Cuerpos Celestes</a><a href="listar-estrellas.html">Estrellas</a><a href="listar-planetas.html">Planetas</a><a href="listar-satelites.html">Satélites</a>
+        </nav>
+    </header>
+    <form id="formulario">
+        <div>
+            <label for="">Nombre de la misión</label>
+            <input type="text" id="txt-nombre" required>
+        </div>
+        <div>
+            <label for="">Fecha de lanzamiento</label>
+            <input type="date" id="txt-fecha" required>
+        </div>
+        <div>
+            <label for="">Duracion en tiempo</label>
+            <input type="text" id="txt-duracion" required>
+        </div>
+        <div>
+            <label for="">Datos de interés</label>
+            <input type="text" id="txt-datos" required>
+        </div>
+        <div>
+            <label for="">Resultado</label>
+            <input type="text" id="txt-resultado" required>
+        </div>
+        <div>
+            <label for="">Nave</label>
+            <input type="text" id="txt-nave" required>
+        </div>
+        <div>
+            <label for="">Seleccione cuerpo celeste de destino</label>
+        </div>
+        <div id="slt-cuerpos-container">
+            
+        </div>
+        <div>
+            <button class="boton2" type="button" id="btn-guardar">Guardar</button>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="js/programa_espacial.js"></script>
+    <script src="js/cuerpo_celeste.js"></script>
+    <script src="js/mision-servicio.js"></script>
+    <script src="js/programa-servicio.js"></script>
+    <script src="js/cuerpo-celeste-servicio.js"></script>
+    <script src="js/agregar-mision.js"></script>
+</body>
+</html>

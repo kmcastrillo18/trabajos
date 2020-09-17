@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="registrar-cuerpo-celeste.html">Registrar Cuerpo celeste</a><a href="registrar-programa.html">Registrar Programa Espacial</a><a href="listar-misiones.html">Misiones</a><a href="listar_programas.html">Programas Espaciales</a><a href="listar_cuerpos_celestes.html">Cuerpos Celestes</a><a href="listar-estrellas.html">Estrellas</a><a href="listar-planetas.html">Planetas</a><a href="listar-satelites.html">Satélites</a>
+        </nav>
+    </header>
+    <section id="info-card">
+        <h1 class="h1">CUERPO CELESTE</h1>
+        <h2 class="tipo"></h2>
+        <ul>
+            <li class="nombre"></li>
+            <li class="masa"></li>
+            <li class="temperatura"></li>
+            <li class="duracion"></li>
+            <div id="info-estrella" class="ocultar">
+                <li class="edad"></li>
+                <li class="composicion"></li>
+                <li class="intensidad_luminica"></li>
+                <li class="tamanno"></li>
+            </div>
+            <div id="info-planeta" class="ocultar">
+                <li class="distancia_sol"></li>
+                <li class="duracion_anno"></li>
+                <li class="cant_satelites"></li>
+                <li class="satelites"></li>
+            </div>
+
+
+        </ul>
+        <button class="boton2" id="boton_atras" type="button">Atrás</button>
+    </section>
+    <script src="js/cuerpo-celeste-servicio.js"></script>
+    <script src="js/mostrar_cuerpo_celeste.js"></script>
+</body>
+
+</html>

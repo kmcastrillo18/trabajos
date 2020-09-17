@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <title>Cuerpos celestes</title>
+</head>
+
+<body class="fondo-general">
+    <header>
+        <nav>
+            <a href="registrar-cuerpo-celeste.html">Registrar Cuerpo celeste</a><a href="registrar-programa.html">Registrar Programa Espacial</a><a href="listar-misiones.html">Misiones</a><a href="listar_programas.html">Programas Espaciales</a><a href="listar_cuerpos_celestes.html">Cuerpos Celestes</a><a href="listar-estrellas.html">Estrellas</a><a href="listar-planetas.html">Planetas</a><a href="listar-satelites.html">Satélites</a>
+        </nav>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Tipo de cuerpo celeste</legend>
+            <div>
+                <label for="">Estrella</label>
+                <input type="radio" name="rbt-tipo" value="Estrella" id="rbt-estrella">
+            </div>
+            <div>
+                <label for="">Planeta</label>
+                <input type="radio" name="rbt-tipo" value="Planeta" id="rbt-planeta">
+            </div>
+        </fieldset>
+        <div>
+            <label for="">Nombre</label>
+            <input type="text" id="txt-nombre" required>
+        </div>
+        <div>
+            <label for="">Masa</label>
+            <input type="text" id="txt-masa" required>
+        </div>
+        <div>
+            <label for="">Temperatura media</label>
+            <input type="text" id="txt-temperatura" required>
+        </div>
+        <div>
+            <label for="">Duración de un día</label>
+            <input type="text" id="txt-duracion-dia" required>
+        </div>
+        <div id="info-estrella">
+            <div>
+                <label for="">Edad</label>
+                <input type="text" id="txt-edad">
+            </div>
+            <div>
+                <label for="">Composición</label>
+                <input type="text" id="txt-composicion">
+            </div>
+            <div>
+                <label for="">Intensidad Lumínica</label>
+                <input type="text" id="txt-intensidad-lumi">
+            </div>
+            <div>
+                <label for="">Tamaño</label>
+                <input type="text" id="txt-tamanno">
+            </div>
+        </div>
+        <div id="info-planeta">
+            <div>
+                <label for="">Distancia media del sol</label>
+                <input type="text" id="txt-dist-sol">
+            </div>
+            <div>
+                <label for="">Duración de un año</label>
+                <input type="text" id="txt-duracion-anno">
+            </div>
+            <div>
+                <label for="">Cantidad de satélites</label>
+                <input type="number" id="txt-cant-satelites">
+            </div>
+        </div>
+        </div>
+        <div>
+            <button class="boton2" type="button" id="btn-registrar">Registrar</button>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <script src="js/cuerpo_celeste.js"></script>
+        <script src="js/cuerpo-celeste-servicio.js"></script>
+        <script src="js/registrar_cuerpo_celeste.js"></script>
+        
+</body>
+
+</html>
